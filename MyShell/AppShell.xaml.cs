@@ -1,4 +1,4 @@
-﻿namespace MyShell
+﻿    namespace MyShell
 {
     public partial class AppShell : Shell
     {
