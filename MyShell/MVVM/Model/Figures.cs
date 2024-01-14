@@ -14,16 +14,19 @@ namespace MyShell.MVVM.Model
         {
             [PrimaryKey, AutoIncrement] public int Id { get; set; }
 
-
             [Column("figurename"), Indexed, NotNull] public string? Name { get; set; } [Unique]
 
             [Column("price"), Indexed, NotNull] public int? Price { get; set; }
 
             [Column("brand"), Indexed, NotNull] public string? Brand { get; set; }
 
-            [Column("releasedate"), Indexed, NotNull] public string? ReleaseDate {get; set;}
+            [Column("releasedate"), Indexed, NotNull] public string? ReleaseDate { get; set; }
 
-            [Column("series"), Indexed, NotNull] public string? Series {get; set;}
+            [Column("series"), Indexed, NotNull] public string? Series { get; set; }
+
+            [Column("specifications"), Indexed, NotNull] public string? Specificiations { get; set;}
+
+            [Column("sculptor"), Indexed, NotNull] public string? Sculptor { get; set; }
 
             
 
