@@ -48,9 +48,8 @@
                     TextColor="Gray"
                     HorizontalTextAlignment="Center"
                     FontFamily="PoppinsRegular">
-                    
                 </Label>
-                
+
                 <Button
                     x:Name="LoginButton"
                      Text="Log in"
@@ -62,6 +61,17 @@
                      Background="#ec7120"
                      FontAttributes="Bold"
                      Clicked="LoginButton_Clicked"/>
+
+                <Label
+                    Text="Forgot Password? | Create Account"
+                    HorizontalOptions="Center"
+                    TextColor="#ec7120"
+                    FontFamily="PoppinsRegular">
+                    
+                    
+                    
+                    
+                </Label>
             </StackLayout>
             
         </VerticalStackLayout>

@@ -14,7 +14,7 @@ namespace MyShell.MVVM.Model
         {
             [PrimaryKey, AutoIncrement] public int Id { get; set; }
 
-            [Column("figurename"), Indexed, NotNull] public string? Name { get; set; } [Unique]
+            [Column("figurename"), Indexed, NotNull, Unique] public string? Name { get; set; } 
 
             [Column("price"), Indexed, NotNull] public int? Price { get; set; }
 
@@ -24,7 +24,7 @@ namespace MyShell.MVVM.Model
 
             [Column("series"), Indexed, NotNull] public string? Series { get; set; }
 
-            [Column("specifications"), Indexed, NotNull] public string? Specificiations { get; set;}
+            [Column("specifications"), Indexed, NotNull] public string? Specificiations { get; set; }
 
             [Column("sculptor"), Indexed, NotNull] public string? Sculptor { get; set; }
 
