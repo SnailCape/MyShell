@@ -12,15 +12,12 @@
         FontFamily="PoppinsRegular"
         HorizontalOptions="Center"
         HorizontalTextAlignment="Center"> 
-        
-        
     </Label>
 
         <Image
         Source="snail.png"
         Background="#ec7120"
         WidthRequest="250">
-          
         </Image>
     </StackLayout>
 </ContentPage>
