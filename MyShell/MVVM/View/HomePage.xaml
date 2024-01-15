@@ -3,7 +3,24 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MyShell.MVVM.View.HomePage"
              Title="Collection">
-    
+    <StackLayout>
+    <Label
+        Text="That's all folks! That's what happens when you have poor planning!"
+        TextColor="#ec7120"
+        FontAttributes="Bold"
+        FontSize="Large"
+        FontFamily="PoppinsRegular"
+        HorizontalOptions="Center"
+        HorizontalTextAlignment="Center"> 
+        
+        
+    </Label>
 
-
+        <Image
+        Source="snail.png"
+        Background="#ec7120"
+        WidthRequest="250">
+          
+        </Image>
+    </StackLayout>
 </ContentPage>

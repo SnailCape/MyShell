@@ -25,7 +25,7 @@ namespace MyShell
             }
             else
             {
-                Navigation.PushAsync(new TabbedPage());
+                Navigation.PushAsync(new HomePage());
             }
         }
     }
